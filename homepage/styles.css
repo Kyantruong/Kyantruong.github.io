@@ -1,0 +1,175 @@
+#image {
+    background-image: url("https://i.insider.com/5dc316ee79d7570e8e259e54?width=1100&format=jpeg&auto=webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 250%;
+            }
+            
+h2 {
+    text-align: center;
+    font-size: 250%;
+            }            
+body {
+    width:100%;
+    background-color: #f8e0b3;
+    height:100%;
+}
+div.container
+{
+width:100%;
+height:100%;
+}
+div.header
+{
+background:url(img/header.jpg);
+width:100%;
+height:100%;
+    margin: 2% 2% 2% 2%;
+    border-bottom: 2px solid black;
+}
+h1.naslov
+{
+    font-size:60px;
+    color:white;
+    margin:0 auto;
+    float:none;   
+    font-family: Aramis;
+}
+p.naslov-text
+{
+font-size:40px;
+color:#634ea9;
+margin:0 auto;
+margin-top:0%;
+float:left;
+font-family: Aramis;
+    
+    
+            }
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.boxed1 {
+  background-color: #b3ffd9;
+  padding: 50px;
+  margin: 40px;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.mySlides {display:none;
+text-align:center;
+
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.w3-display-container {
+  text-align: center;
+  display: block;
+}
+
+.boxed {
+  border: 10px coral;
+  border-style: dashed;
+  background-color: Moccasin;
+  padding: 20px;
+  min-height: 70vh;
+  margin: 40px;
+  margin-top: 120px;
+  
+}
+  
+
+.carousel-caption {
+    position: absolute;
+    top:400px;
+    opacity: 1;
+}
+
+.column {
+  height: 200%;
+}
+
+div.a
+{
+  font-size: 20px;
+  text-indent: 60px;
+  text-align: left;
+}
+
+
+
+carousel-item
+{ height: 100%;
+    width: 100%;
+}
+
+.carousel-inner
+{position: absolute;
+    max-width: 100%;
+    width: 100%;
+    height: 1000px;
+    max-height: 100%;
+}
+
+p-3 mb-2 bg-secondary text-white
+{
+  opacity:0.6;
+}
